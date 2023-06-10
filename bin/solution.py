@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
     # Dump the dictionary to JSON File
     with open("../output/"+output_filename+".json", "w") as json_file:
-        json.dump(dict_output, json_file)
+        json.dump(dict_output, json_file, indent=4)
     print("JSON dumped to Output Folder..!")
 
     # Calculating the Elapse Time
